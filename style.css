@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #BC6C25;
+    color: #606C38;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+    font-size: 4vh;
+    text-decoration-line: underline;
+    padding: 2vh;
+    color: #283618;
+}
+.choicetxt{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.icon img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 15px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.icon img:hover{
+    border:1px solid #283618;
+    background: linear-gradient(90deg, #606C38, #283618);
+    box-shadow: 0 0 20px #DDA15E;
+    opacity: 0.5;
+}
+.iconarea{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.gamearea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fefae0;
+    border:1px solid #283618;
+    backdrop-filter: blur(15px);
+    border-radius: 16px;
+    padding: 2rem;
+    width: min(90vh,580px);
+    text-align: center;
+    box-shadow: 0 0 20px #BC6C25;
+    transition: all 1.4s ease;
+}
+.comparea{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px;
+}
+.compchoice{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scoretxt{
+    text-decoration: underline;
+    padding: 5px 5px;
+}
+.pts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.2rem;
+}
+.msgarea{
+    padding: 4px 20px 4px 20px;
+    border-radius: 5px;
+    background: #DDA15E;
+}

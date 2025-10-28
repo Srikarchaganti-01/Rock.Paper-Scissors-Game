@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2P3SX31Y5"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-P2P3SX31Y5');
+        </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gamearea">
+        <h1 class="title">Rock Paper Scissors.</h1>
+        <div class="iconarea">
+            <h3 class="choicetxt">Pick Your choice:-</h3>
+            <div class="icons">
+                <div class="icon" id="rock"><img src="rock.jpeg" alt="rock"></div>
+                <div class="icon" id="paper"><img src="paper.jpeg" alt="paper"></div>
+                <div class="icon" id="scissors"><img src="scissor.jpeg" alt="scissor"></div>
+            </div>
+        </div>
+        <div class="comparea">
+            <h3 class="comptxt">Computer Choice:-</h3>
+            <div class="compchoice"><h3></h3></div>
+        </div>
+        <div class="msgarea">
+            <h3 id="msg">Choose your option</h3>
+        </div>
+        <div class="scorearea">
+            <h3 class="scoretxt">Score:-</h3>
+            <div >
+                <h3>Your score:-  </h3>
+                <div id="yourscr" class="pts"></div>
+            </div>
+            <div >
+                <h3>Computer score:-  </h3>
+                <div id="compscr" class="pts" ></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
